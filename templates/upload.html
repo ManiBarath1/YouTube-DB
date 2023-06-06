@@ -1,0 +1,22 @@
+{%extends 'index.html'%}
+{%block content%}
+
+<div class="form-container">
+    <h1>Upload video</h1>
+<form action="" method="POST">
+    <label for="">Video URL</label>
+    <input type="text" name="video">
+
+    <label for="">Thumbnail URL</label>
+    <input type="text" name="thumb">
+
+    <label for="">Name</label>
+    <input type="text" name="name">
+
+    <label for="">Description</label>
+    <input type="text" name="des">
+
+    <input type="submit" value="submit">
+</form>
+</div>
+{%endblock%}
